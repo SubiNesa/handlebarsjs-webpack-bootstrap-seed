@@ -1,0 +1,59 @@
+{
+    "name": "handlebarsjs-webpack-bootstrap-seed",
+    "version": "1.0.0",
+    "description": "Seed project for building small web apps with handlebars templates, webpack, bootstrap, font awesome icons and scss along with babel.",
+    "main": "app.js",
+    "scripts": {
+        "build": "webpack --config webpack.prod.config.js",
+        "start": "webpack-dev-server --config webpack.dev.config.js --hot",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SubiNesa/handlebarsjs-webpack-bootstrap-seed.git"
+    },
+    "keywords": [
+        "handlebarsjs",
+        "webpack",
+        "bootstrap",
+        "fontawesome",
+        "babel",
+        "sass",
+        "jquery",
+        "seed"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SubiNesa/handlebarsjs-webpack-bootstrap-seed/issues"
+    },
+    "homepage": "https://github.com/SubiNesa/handlebarsjs-webpack-bootstrap-seed#readme",
+    "devDependencies": {
+        "@babel/core": "^7.7.5",
+        "@babel/preset-env": "^7.7.6",
+        "@fortawesome/fontawesome-svg-core": "^1.2.26",
+        "@fortawesome/free-brands-svg-icons": "^5.12.0",
+        "@fortawesome/free-regular-svg-icons": "^5.12.0",
+        "@fortawesome/free-solid-svg-icons": "^5.12.0",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "clean-webpack-plugin": "^3.0.0",
+        "handlebars-loader": "^1.7.1",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0"
+    },
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "bootstrap": "^4.4.1",
+        "css-loader": "^3.2.1",
+        "handlebars": "^4.5.3",
+        "jquery": "^3.4.1",
+        "node-sass": "^4.13.0",
+        "popper.js": "^1.16.0",
+        "sass-loader": "^8.0.0",
+        "style-loader": "^1.0.1"
+    }
+}
